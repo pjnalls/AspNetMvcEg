@@ -24,7 +24,19 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
+        
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1.0.5
+        
+      - name: Restore NuGet packages
+        run: nuget restore "AspNetMvcEg.sln"
+        
+      - name: Build the Solution
+        run: msbuild "AspNetMvcEg.sln"
+        
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
