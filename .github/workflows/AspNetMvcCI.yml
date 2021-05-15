@@ -37,15 +37,6 @@ jobs:
       - name: Build the Solution
         run: msbuild "AspNetMvcEg/AspNetMvcEg.sln"
         
-      - name: Run Unit Tests in the Solution
-        run:  '& "$(vswhere -property installationPath)\Common7\IDE\MSTest.exe" /testcontainer:"D:\a\AspNetMvcEg\AspNetMvcEg\AspNetMvcEg\AspNetMvcEgTest\bin\Debug\AspNetMvcEgTest.dll"'
-        
+      - name: Run VSTests
+        run:  '& "$(vswhere -property installationPath)\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe"'
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-  
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo CI test for ASP.NET MVC application was successful.
