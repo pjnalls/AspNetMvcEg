@@ -38,5 +38,5 @@ jobs:
         run: msbuild "AspNetMvcEg/AspNetMvcEg.sln"
         
       - name: Run VSTests
-        run:  '& "$(vswhere -property installationPath)\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe"'
+        run:  '& "$(vswhere -property installationPath)\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" "D:\a\AspNetMvcEg\AspNetMvcEg\AspNetMvcEg\AspNetMvcEgTest\bin\Debug\AspNetMvcEgTest.dll"'
       # Runs a set of commands using the runners shell
