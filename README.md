@@ -23,7 +23,7 @@
 
 ![example workflow](https://github.com/pjnalls/AspNetMvcEg/actions/workflows/AspNetMvcCI.yml/badge.svg)
 
-👆 `All MSTests` is a `GitHub Actions` workflow I created for this ASP.NET MVC web app that encourage you to check out if you've had issues setting up workflows for older, "non-Core" .NET applications. To view the file which defines this workflow go [here](https://github.com/pjnalls/AspNetMvcEg/blob/main/.github/workflows/AspNetMvcCI.yml).
+👆 `MSTest` is a `GitHub Actions` workflow I created for this ASP.NET MVC web app that encourage you to check out if you've had issues setting up workflows for older, "non-Core" .NET applications. To view the file which defines this workflow go [here](https://github.com/pjnalls/AspNetMvcEg/blob/main/.github/workflows/AspNetMvcCI.yml).
 
 <br />
 
