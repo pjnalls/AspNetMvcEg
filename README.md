@@ -1,4 +1,7 @@
-<h1 align=center> 
+<h1 align=center>
+  <br />
+  <br />
+  
   <b> AspNetMvcEg </b>
 
   <br />
@@ -22,14 +25,15 @@
 
 ![example workflow](https://github.com/pjnalls/AspNetMvcEg/actions/workflows/AspNetMvcCI.yml/badge.svg)
 
-<br />
-
-This repository is just an example of a ASP.NET MVC for testing certain ideas and concepts.
+👆 `All MSTests` is a `GitHub Actions` workflow I created for this ASP.NET MVC web app that encourage you to check out if you've had issues setting up workflows for older, "non-Core" .NET applications. To view the file which defines this workflow go [here](https://github.com/pjnalls/AspNetMvcEg/blob/main/.github/workflows/AspNetMvcCI.yml).
 
 <br />
+
+Overall, this repository is intended to be an example of a ASP.NET MVC web app for testing certain ideas and concepts.
+
 <br />
 
-Hopefully, more changes to come.
+Hopefully, more changes should be coming down the pipeline (or should I say `workflow`... 😅).
 
 <br />
 <br />
