@@ -1,9 +1,15 @@
-<h1 align=center>
-  <br />
-  
-  <b> AspNetMvcEg </b>
+<br />
 
+<div align="center">
+  <img src="dotneteg.png" alt="an ASP.NET MVC 'Eg'." width="120px"/>
+</div>
+
+<h1 align=center>
+  <b> AspNetMvcEg </b>
+  
   <br />
+  <br />
+
 
 </h1>
 
