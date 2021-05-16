@@ -1,7 +1,7 @@
 <br />
 
 <div align="center">
-  <img src="dotneteg.png" alt="an ASP.NET MVC 'Eg'." width="120px"/>
+  <img src="dotneteg.png" alt="an ASP.NET MVC 'eg'." width="120px"/>
 </div>
 
 <h1 align=center>
@@ -17,7 +17,7 @@
 <br />
 
 <h3 align=center>
-  An ASP.NET MVC web app eg. ([for] "example") and POC (proof-of-concept) web app. 
+  An ASP.NET MVC web app e.g. ([for] "example") and POC (proof-of-concept) web app. 
 </h3>
 
 <br />
