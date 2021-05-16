@@ -1,10 +1,8 @@
 <h1 align=center>
   <br />
-  <br />
   
   <b> AspNetMvcEg </b>
 
-  <br />
   <br />
 
 </h1>
