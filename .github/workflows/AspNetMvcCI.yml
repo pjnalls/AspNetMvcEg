@@ -1,8 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
-name: "All MSTests"
+name: MSTest
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -39,4 +39,3 @@ jobs:
         
       - name: Run VSTests
         run:  '& "$(vswhere -property installationPath)\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" "D:\a\AspNetMvcEg\AspNetMvcEg\AspNetMvcEg\AspNetMvcEgTest\bin\Debug\AspNetMvcEgTest.dll"'
-      # Runs a set of commands using the runners shell
