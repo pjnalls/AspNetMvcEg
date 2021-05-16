@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: MSTest
+name: VSTest
 
 # Controls when the action will run.
 on:
@@ -37,5 +37,5 @@ jobs:
       - name: Build the Solution
         run: msbuild "AspNetMvcEg/AspNetMvcEg.sln"
         
-      - name: Run VSTests
+      - name: Run VSTest
         run:  '& "$(vswhere -property installationPath)\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" "D:\a\AspNetMvcEg\AspNetMvcEg\AspNetMvcEg\AspNetMvcEgTest\bin\Debug\AspNetMvcEgTest.dll"'
